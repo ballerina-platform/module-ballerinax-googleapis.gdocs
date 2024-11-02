@@ -55,6 +55,7 @@ paths:
           application/json:
             schema:
               $ref: "#/components/schemas/Document"
+        description: The JSON payload containing document details to be created. Only the `title` field is required and used in this request. Any other fields, including content, are ignored.
       responses:
         "200":
           content:
@@ -168,6 +169,7 @@ paths:
           application/json:
             schema:
               $ref: "#/components/schemas/BatchUpdateDocumentRequest"
+        description: "A JSON payload containing a list of updates to apply to the document. Each update is an individual request specifying modifications such as text insertion, deletion, or styling changes. The updates are applied in the order provided, and all changes are atomic: if any update fails, none are applied."
       responses:
         "200":
           content:
