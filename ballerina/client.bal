@@ -60,6 +60,7 @@ public isolated client class Client {
     # + documentId - The ID of the document to update.
     # + headers - Headers to be sent with the request 
     # + queries - Queries to be sent with the request 
+    # + payload - A JSON payload containing a list of updates to apply to the document. Each update is an individual request specifying modifications such as text insertion, deletion, or styling changes. The updates are applied in the order provided, and all changes are atomic: if any update fails, none are applied. 
     # + return - Successful response 
     remote isolated function docsDocumentsBatchupdate(string documentId, BatchUpdateDocumentRequest payload, map<string|string[]> headers = {}, *DocsDocumentsBatchupdateQueries queries) returns BatchUpdateDocumentResponse|error {
         string resourcePath = string `/v1/documents/${getEncodedUri(documentId)}:batchUpdate`;
@@ -74,6 +75,7 @@ public isolated client class Client {
     #
     # + headers - Headers to be sent with the request 
     # + queries - Queries to be sent with the request 
+    # + payload - The JSON payload containing document details to be created. Only the `title` field is required and used in this request. Any other fields, including content, are ignored. 
     # + return - Successful response 
     remote isolated function docsDocumentsCreate(Document payload, map<string|string[]> headers = {}, *DocsDocumentsCreateQueries queries) returns Document|error {
         string resourcePath = string `/v1/documents`;
