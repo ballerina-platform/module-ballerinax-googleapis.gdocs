@@ -5,9 +5,10 @@ name = "googleapis.gdocs"
 version = "0.1.0"
 license = ["Apache-2.0"]
 authors = ["Ballerina"]
-keywords = [] # TODO: Add keywords
-# icon = "icon.png" # TODO: Add icon
+keywords = ["REST", "API", "Google", "Docs"]
+icon = "icon.png"
 repository = "https://github.com/ballerina-platform/module-ballerinax-googleapis.gdocs"
+export = ["googleapis.gdocs"]
 
 [build-options]
 observabilityIncluded = true
