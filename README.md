@@ -1,7 +1,7 @@
 # Ballerina Google Docs connector
 
 [![Build](https://github.com/ballerina-platform/module-ballerinax-googleapis.gdocs/actions/workflows/ci.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-googleapis.gdocs/actions/workflows/ci.yml)
-[![Trivy](https://github.com/ballerina-platform/module-ballerinax-googleapis.gdocs/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-googleapis.gdocs/actions/workflows/trivy-scan.yml)
+[![Security Scan](https://github.com/ballerina-platform/module-ballerinax-googleapis.gdocs/actions/workflows/security-scan.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-googleapis.gdocs/actions/workflows/security-scan.yml)
 [![GraalVM Check](https://github.com/ballerina-platform/module-ballerinax-googleapis.gdocs/actions/workflows/build-with-bal-test-graalvm.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-googleapis.gdocs/actions/workflows/build-with-bal-test-graalvm.yml)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/ballerina-platform/module-ballerinax-googleapis.gdocs.svg)](https://github.com/ballerina-platform/module-ballerinax-googleapis.gdocs/commits/master)
 [![GitHub Issues](https://img.shields.io/github/issues/ballerina-platform/ballerina-library/module/googleapis.gdocs.svg?label=Open%20Issues)](https://github.com/ballerina-platform/ballerina-library/labels/module%googleapis.gdocs)
